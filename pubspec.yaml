@@ -1,7 +1,7 @@
-name: counter
-description: A new Flutter package project.
+name: clinic counter
+description: Widget to help healthworkers in observing breath/pulse rates
 version: 0.0.1
-homepage:
+homepage: https://www.logiak.com
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
