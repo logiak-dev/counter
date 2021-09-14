@@ -28,6 +28,8 @@ The widget alerts the user with a tone at 30 seconds and 60 seconds.
 
 Its simple, but useful.
 
+![Counter](https://github.com/logiak-dev/counter/counter.gif)
+
 ## Usage
 
 If you want to programmatically extract the rate, you can pass a key for the widget
