@@ -11,29 +11,38 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+COUNTER: Respiratory Rate / Pulse Rate. 
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+This widget was developed for use in global health.
+
+It facilitates the measurement of breath or pulse rates.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+The user starts the stopwatch, and then clicks a large button at each
+breath/pulse. The widget calculates the rate/min on an ongoing basis.
+
+Its simple, but useful.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+If you want to programmatically extract the rate, you can pass a key for the widget
+and then query its current state
 
 ```dart
-const like = 'sample';
+
+GlobalKey<CounterState> key = GlobalKey<CounterState>();
+
+Counter(key),
+IconButton(icon: Icon(Icons.refresh, color: Colors.white),
+          onPressed: () => print(key.currentState?.ratePerMinute.toString())),
 ```
+Or you could modify Counter to pass a listener function which is updated at every cycle.
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+We have worked in Global Health for some years, and intend to offer other widgets
+which might be useful in healthcare worldwide. We would be interested in hear from
+anyone using this or having other ideas for potentially useful healthcare widgets.
