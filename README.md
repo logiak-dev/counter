@@ -28,7 +28,7 @@ The widget alerts the user with a tone at 30 seconds and 60 seconds.
 
 Its simple, but useful.
 
-![Counter](https://github.com/logiak-dev/counter/counter.gif)
+![Counter](https://github.com/logiak-dev/counter/blob/master/counter.gif)
 
 ## Usage
 
