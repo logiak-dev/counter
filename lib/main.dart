@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:counter/counter.dart';
+import 'package:clinic_counter/clinic_counter.dart';
 import 'package:flutter/material.dart';
 
 Future main() async {

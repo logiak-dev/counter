@@ -13,20 +13,25 @@ and the Flutter guide for
 
 This is a Flutter package -
 
-COUNTER: Respiratory Rate / Pulse Rate. 
+CLINIC COUNTER: Respiratory Rate / Pulse Rate. 
 
 ## Features
 
-This widget facilitates the measurement of breath or pulse rates by health workers.
+This widget helps health workers to measure respiratory and pulse rates in patients.
 
 ## Getting started
 
-The user starts the stopwatch, and then clicks a large button upon observing each
-breath/pulse. The widget calculates and presents the rate/min on an ongoing basis.
+Expected scenario here is that the user has a mobile device with an app including this widget.
 
-The widget alerts the user with a tone at 30 seconds and 60 seconds.
+The user starts the stopwatch, then can focus entirely on the patient, observing breaths/pulses
+and for each one clicking on the large button (large so health worker can rest digit there and not need to look).
 
-Its simple, but useful.
+The widget calculates and presents the rate per min on an ongoing basis.
+
+The user is alerted with a tone at 30 seconds and 60 seconds, at which points the rate can be read off.
+No need for clinician/nurse to follow time or to do any calculations, only to click on observation of each event(breath/pulse).
+
+Its simple, but found to be very useful.
 
 ![Counter](https://github.com/logiak-dev/counter/blob/master/counter.gif)
 

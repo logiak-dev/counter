@@ -1,7 +1,7 @@
-library counter;
+library clinic_counter;
 
 import 'dart:async';
-import 'package:counter/controls_buttons_panel.dart';
+import 'package:clinic_counter/controls_buttons_panel.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:soundpool/soundpool.dart';
