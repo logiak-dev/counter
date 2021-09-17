@@ -53,7 +53,7 @@ and then query its current state for the "ratePerMinute" double value
 
 GlobalKey<CounterState> key = GlobalKey<CounterState>()
 
-Counter(key)
+Counter(key:key)
  
 
 IconButton(icon: Icon(Icons.refresh),
