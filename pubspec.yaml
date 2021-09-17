@@ -1,6 +1,6 @@
 name: clinic_counter
 description: Widget to help healthworkers in observing breath/pulse rates
-version: 0.0.1
+version: 0.0.2
 homepage: https://www.logiak.com
 
 environment:

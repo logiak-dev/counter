@@ -7,9 +7,12 @@ import 'package:flutter/material.dart';
 import 'package:soundpool/soundpool.dart';
 
 class Counter extends StatefulWidget {
-  final GlobalKey<CounterState> key;
+  final GlobalKey<CounterState> key  ;
 
-  Counter(this.key) : super(key: key);
+
+
+
+  Counter({this.key = const GlobalObjectKey('') }) : super(key: key );
 
   @override
   State createState() => CounterState();

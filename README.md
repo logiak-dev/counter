@@ -37,8 +37,17 @@ Its simple, but found to be very useful.
 
 ## Usage
 
+Just include
+
+```dart
+
+Counter();
+
+  
+```
+
 If you want to programmatically extract the rate, you can pass a key for the widget
-and then query its current state
+and then query its current state for the "ratePerMinute" double value
 
 ```dart
 
@@ -47,7 +56,7 @@ GlobalKey<CounterState> key = GlobalKey<CounterState>()
 Counter(key)
  
 
-IconButton(icon: Icon(Icons.refresh, color: Colors.white),
+IconButton(icon: Icon(Icons.refresh),
           onPressed: () => print(key.currentState?.ratePerMinute.toString()))
 ```
 Or you could modify Counter to pass a listener function which is updated at every cycle.
